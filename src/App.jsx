@@ -1,6 +1,7 @@
 import './App.css'
 import Profile from './component/Profile'
 import Login from './component/Login'
+import ChangeColor from './component/ChangeColor'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Profile />
       <Login />
+      <ChangeColor />
     </div>
   )
 }
