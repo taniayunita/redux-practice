@@ -1,0 +1,16 @@
+#add-contact {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url("../../assets/images/bg-interior.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.btn-add-contact {
+    z-index: 1000;
+    display: inline-block;
+    position: fixed;
+    bottom: 8%;
+    right: 35%;
+}
