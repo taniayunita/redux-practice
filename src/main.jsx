@@ -6,6 +6,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import userReducer from './features/user' 
 import themeReducer from './features/theme'
+import { BrowserRouter } from "react-router-dom";
 
 //store collect reducer
 //reducer is current state
@@ -17,9 +18,9 @@ const store = configureStore({
 });
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+  <BrowserRouter>
     <Provider store={store}>
       <App />
     </Provider>
-  </React.StrictMode>
+  </BrowserRouter>
 );
