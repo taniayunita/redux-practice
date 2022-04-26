@@ -14,6 +14,9 @@ function App() {
             <ListContacts />
             {/* <Counter /> */}
           </Route>
+          <Route  path="/counter">
+            <Counter />
+          </Route>
           <Route path="/edit-contact">
             <EditContact />
           </Route>

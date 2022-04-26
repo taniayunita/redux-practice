@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import {
   increment,
   decrement,
-  incrementByAmount,
+  incrementByAmount
 } from "../redux/reducer/counter/counterSlice";
 
 const Counter = () => {
@@ -17,13 +17,21 @@ const Counter = () => {
       >
         increment
       </button>
-      <span>{count}</span>
+      <span className="font-bold">{count}</span>
       <button
         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
         onClick={() => dispatch(decrement())}
       >
-        decrement
+      decrement
       </button>
+
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+        onClick={() => dispatch(incrementByAmount(10))}
+      >
+        incrementByAmount
+      </button>
+        
       
     </div>
   );

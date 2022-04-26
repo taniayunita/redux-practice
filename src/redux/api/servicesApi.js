@@ -1,25 +1,25 @@
 import http from './api'
 
-const getAll = () => {
+const getContacts = () => {
     return http.get("/contacts");
   };
-  const get = id => {
+  const getContactId = id => {
     return http.get(`/contacts/${id}`);
   };
-  const create = data => {
+  const createContact = data => {
     return http.post("/contacts", data);
   };
-  const update = (id, data) => {
+  const updateContact = (id, data) => {
     return http.put(`/contacts/${id}`, data);
   };
-  const remove = id => {
+  const deleteContact = id => {
     return http.delete(`/contacts/${id}`);
   };
 
   const ApiService = {
-    get,
-    create,
-    update,
-    remove,
+    getContacts,
+    createContact,
+    updateContact,
+    deleteContact,
   };
   export default ApiService;
