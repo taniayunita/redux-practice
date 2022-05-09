@@ -1,16 +1,40 @@
 {
     "contacts" : [
         {
-            "id" : 1,
-            "name" : "Tania Yunita",
-            "email" : "taniayunita@gmail.com",
-            "number" : "08978990998"
-        },
-        {
-            "id" : 2,
-            "name" : "Raisa Andriana",
-            "email" : "raisa.andriana@gmail.com",
-            "number" : "081398098909"
-        }
+            "id": 1,
+            "name": "Tania Yunita",
+            "email": "taniayunita@gmail.com",
+            "number": "08978990998"
+          },
+          {
+            "id": 2,
+            "name": "Raisa Andriana",
+            "email": "raisa.andriana@gmail.com",
+            "number": "081398098909"
+          },
+          {
+            "id": 3,
+            "name": "Ayu Trivita",
+            "email": "ayutrivita@gmail.com",
+            "number": "08978990998"
+          },
+          {
+            "id": 4,
+            "name": "Arina Anggraini",
+            "email": "arina.anggraini@gmail.com",
+            "number": "081398098909"
+          },
+          {
+            "id": 5,
+            "name": "Aline Curly",
+            "email": "aline.curly@gmail.com",
+            "number": "081398098909"
+          },
+          {
+            "id": 6,
+            "name": "Aline Curly",
+            "email": "aline.curly@gmail.com",
+            "number": "081398098909"
+          }
     ]
 }
